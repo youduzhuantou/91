@@ -17,8 +17,8 @@
 
 如果isLocalPlayerWhitelisted，则
 StarterGui:SetCore("SendNotification"，{
-title="白名单认证"，
-text="玩家："..localPlayer.Name.."，检测完毕白名单玩家，稍后会加载脚本"，
+标题="白名单认证"，
+文本="玩家："..localPlayer.Name.."，检测完毕白名单玩家，稍后会加载脚本"，
 持续时间=7，
     })
 
